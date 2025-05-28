@@ -114,7 +114,57 @@ Este gráfico de barras muestra la evolución anual de los avistamientos. Se pue
 
 Gráfico de mapa representa las ciudades con mayor número de avistamientos reportados. Esta visualización permite identificar focos urbanos donde estos fenómenos son más reportados.
 
+## 📈 Resultados e Insights
 
+### 🔹 1. Formas más comunes de OVNIs reportadas
+
+Los datos revelan que las formas de objetos más reportadas en Estados Unidos son:
+- Light (luz)
+- Circle (círculo)
+- Triangle (triángulo)
+- Fireball (bola de fuego)
+- Disk (disco)
+
+Esto sugiere que los testigos tienden a asociar los objetos observados con formas geométricas simples o manifestaciones luminosas. Estas categorías también pueden estar influenciadas por referencias culturales, películas o noticias de fenómenos similares.
+
+### 🔹 2. Años con mayor cantidad de avistamientos
+
+El análisis anual muestra que los años con más reportes fueron:
+- 2012, 2013 y 2014
+
+Esto coincide con un periodo de mayor visibilidad del fenómeno OVNI en medios y redes sociales. También se aprecia una disminución progresiva después del 2015, lo que podría estar relacionado con cambios en los canales de reporte o en el interés general del público.
+
+### 🔹 5. Ciudades con más avistamientos
+
+Las ciudades con mayor número de reportes fueron:
+- Phoenix.
+- Seattle.
+- Portland.
+- New York.
+- Las Vegas.
+
+Esto puede estar asociado a factores como densidad poblacional, actividades turísticas o simplemente la cultura de reportar fenómenos inusuales en dichas ciudades.
+
+## ✅ Conclusión
+
+El desarrollo de este proyecto permitió aplicar de manera práctica los conocimientos adquiridos en el curso de Big Data, utilizando herramientas del ecosistema de Google Cloud como Cloud Storage, Cloud Dataprep, BigQuery y Looker Studio.
+
+A partir de un dataset de avistamientos de OVNIs, se diseñó un flujo completo de procesamiento batch que incluyó la ingesta, limpieza, transformación, análisis y visualización de datos. Este flujo permitió obtener insights relevantes sobre patrones temporales, geográficos y descriptivos de los fenómenos reportados.
+
+Además, se evidenció la capacidad de estas herramientas para gestionar grandes volúmenes de datos de manera eficiente, facilitando la toma de decisiones basada en información visual e interactiva. La integración entre las plataformas permitió automatizar gran parte del proceso, reforzando competencias en análisis de datos, visualización y uso de tecnologías cloud.
+
+## 📎 Anexos
+- Capturas del bucket `diego-sanhueza` en Cloud Storage.
+- Vista del Flow en Cloud Dataprep con limpieza aplicada.
+- Resultados de consultas SQL en BigQuery.
+- Capturas de los gráficos en Looker Studio.
+
+## 👨‍💻 Autores
+
+Integrantes: Liliana Heracles, Diego Sanhueza y Lidia Nuñez.
+Estudiantes de Informática Biomédica.
+Instituto Profesional Duoc UC. 
+Curso: Big Data – AVY1101 – 2025.
 
 
 
