@@ -62,8 +62,7 @@ GROUP BY UFO_shape
 ORDER BY Sightings DESC
 LIMIT 5;
 
-### 2. Avistamientos por año en EE.UU.
-```sql
+### 2. Cantidad de avistamientos por año.
 SELECT 
   EXTRACT(YEAR FROM DATETIME(Date_time)) AS Year,
   COUNT(*) AS Sightings
@@ -76,21 +75,7 @@ GROUP BY
 ORDER BY 
   Sightings DESC;
 
-### 3. Avistamientos por estado en EE.UU.
-```sql
-SELECT 
-  `state/province` AS State,
-  COUNT(*) AS Sightings
-FROM 
-  `ufo_dataset.ufo_sightings`
-WHERE 
-  country = 'us'
-GROUP BY 
-  State
-ORDER BY 
-  Sightings DESC;
-
-### 4. Top 5 ciudades con más avistamientos en EE.UU..
+### 3. Top 5 ciudades con más avistamientos en EE.UU..
 ```sql
 SELECT 
   city,
@@ -104,5 +89,32 @@ GROUP BY
 ORDER BY 
   Sightings DESC
 LIMIT 5;
+
+
+## 📊 Visualizaciones en Looker Studio
+
+A continuación se presentan los gráficos generados con Looker Studio, basados en las consultas realizadas sobre la tabla `avistamientos` en BigQuery.
+
+### 🥧 1. Top 5 formas de OVNIs más vistas
+
+![Gráfico de torta](visualizaciones/tercera consulta.png)
+
+Este gráfico de torta representa las cinco formas más comunes de objetos voladores no identificados reportadas en Estados Unidos. Se observa que las formas "light" y "circle" lideran los reportes.
+
+### 📊 2. Cantidad de avistamientos por año
+
+![Gráfico por año](visualizaciones/segunda consulta.png)
+
+Este gráfico de barras muestra la evolución anual de los avistamientos. Se puede identificar un aumento significativo en determinados años, lo que podría relacionarse con eventos culturales, tecnológicos o sociales.
+
+### 🏙️ 3. Top 5 ciudades con más avistamientos
+
+![Gráfico de ciudades](visualizaciones/primera consulta.png)
+![Gráfico de ciudades](visualizaciones/primera consulta 1.png)
+
+Gráfico de mapa representa las ciudades con mayor número de avistamientos reportados. Esta visualización permite identificar focos urbanos donde estos fenómenos son más reportados.
+
+
+
 
 
