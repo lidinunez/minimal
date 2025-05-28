@@ -2,7 +2,12 @@
 @import "rouge-github";
 
 body {
-  background-color: #fff;
+  background:
+     linear-gradient(to right, #fff 50%, #fff 50%),
+     url('https://i.pinimg.com/736x/df/aa/8b/dfaa8b7befef7f0bf5712e9660f80246.jpg');
+  background-size: 50% 100%;
+  background-position: left center;
+  background-repeat: no-repeat;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
