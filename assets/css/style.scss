@@ -3,8 +3,10 @@
 
 @import "jekyll-theme-minimal";
 
-.sidebar {
+.foto-lateral {
   width: 300px; /* Puedes ajustar el ancho */
   background-image: url('/assets/images/Ufo.png');
   background-size: cover;
   background-position: left center;
+  background-repeat: no-repeat;
+  height: 300px;
