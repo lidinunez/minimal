@@ -16,8 +16,7 @@
 }
 
 .foto-lateral {
-  width: 100%; 
-  height: auto; /* Imagen ocupa todo el ancho del sidebar */
+  width: 100%;/* Imagen ocupa todo el ancho del sidebar */
   max-width: 150px;         /* Máximo ancho */
   border-radius: 8px;       /* Bordes redondeados */
   object-fit: cover;        /* Ajusta la imagen para cubrir el contenedor */
