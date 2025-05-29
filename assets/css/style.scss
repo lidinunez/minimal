@@ -8,3 +8,13 @@
 h1.titulo-centrado {
   text-align: center;!important
 }
+
+.izquierda {
+  text-align: left;
+}
+
+.fondo-lateral {
+  background-image: url('/assets/images/Ufo.png');
+  background-position: left center;
+  background-size: cover;
+}
