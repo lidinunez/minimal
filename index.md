@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-<h1 class="titulo-centrado">{{ site.title }}</h1>
+<div style="display: flex; align-items: center;">
+  <img src="/assets/images/Ufo.png" alt="Ufo" style="width:100px; height:auto; margin-right: 10px;">
+  <h1>{{ site.title }}</h1>
+</div>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
