@@ -2,11 +2,6 @@
 layout: default
 ---
 
-<div class="fondo-lateral">
-  <h1>Mi sitio</h1>
-</div>
-
-
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
