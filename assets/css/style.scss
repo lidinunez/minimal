@@ -14,3 +14,21 @@
   padding-left: 20px;
   color: white;
 }
+
+.sidebar {
+  width: 250px;             /* Ancho fijo para la barra lateral */
+  padding: 20px;
+  background-color: #f0f0f0; /* Color de fondo claro */
+  display: flex;
+  flex-direction: column;   /* Apila elementos en columna */
+  align-items: flex-start;  /* Alinea al inicio (izquierda) */
+  gap: 15px;                /* Espacio entre elementos */
+}
+
+.foto-lateral {
+  width: 100%;              /* Imagen ocupa todo el ancho del sidebar */
+  max-width: 150px;         /* Máximo ancho */
+  border-radius: 8px;       /* Bordes redondeados */
+  object-fit: cover;        /* Ajusta la imagen para cubrir el contenedor */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
