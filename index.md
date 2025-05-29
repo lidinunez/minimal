@@ -2,14 +2,10 @@
 layout: default
 ---
 
-<div style="
-  background-image: url('/assets/images/Ufo.jpg');
-  background-size: cover;
-  background-position: left center;
-  width: 100%;
-  height: 300px;
-">
+<div class="fondo-lateral">
+  <h1>Mi Título</h1>
 </div>
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
