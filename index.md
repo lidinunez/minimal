@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="fondo-lateral">
-  <h1>Mi Título</h1>
+<div class="fondo">
+  <h1>Mi sitio</h1>
 </div>
 
 
