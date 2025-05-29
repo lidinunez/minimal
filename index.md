@@ -1,9 +1,14 @@
 ---
 layout: default
 ---
-<div style="display: flex; align-items: center;">
-  <img src="/assets/images/Ufo.png" alt="Ufo" style="width:100px; height:auto; margin-right: 10px;">
-  <h1>{{ site.title }}</h1>
+
+<div style="
+  background-image: url('/assets/images/Ufo.jpg');
+  background-size: cover;
+  background-position: left center;
+  width: 100%;
+  height: 300px;
+">
 </div>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
