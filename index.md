@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<h1 class="titulo-centrado">{{ site.title }}</h1>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
