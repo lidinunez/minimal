@@ -10,9 +10,7 @@
   display: flex;
   flex-direction: column;   /* Apila elementos en columna */
   align-items: flex-start;  /* Alinea al inicio (izquierda) */
-  gap: 15px;     
-  box-sizing: border-box;
-  min-height: 100vh; /* Espacio entre elementos */
+  gap: 15px;  /* Espacio entre elementos */
 }
 
 .foto-lateral {
