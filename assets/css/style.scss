@@ -5,10 +5,10 @@
 
 
 .fondo-lateral {
-  background: linear-gradient(to right, #fff 50%, #ddd 50%);
-  background-image: url('/assets/images/Ufo.png');
+  background: linear-gradient(to right, rgba(0,0,0,0.5) 50%, white 50%), url('/assets/images/mi-fondo.jpg');
   background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 50% 100%;
+  height: 300px;
+  color: white;
 }
