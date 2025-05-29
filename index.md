@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="fondo">
+<div class="fondo-lateral">
   <h1>Mi sitio</h1>
 </div>
 
