@@ -4,26 +4,19 @@
 @import "jekyll-theme-minimal";
 
 
-.fondo-lateral {
- background-image: url('/assets/images/Ufo.png');
-  background-position: left center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
-  color: white;
-  padding-left: 20px;
-  display: flex;
-  align-items: center;
-}
-
-
 .sidebar {
-  width: 250px;             /* Ancho fijo para la barra lateral */
+  width: 250px;             
   padding: 20px;
-  background-color: #f0f0f0; /* Color de fondo claro */
+  background-image: url('/assets/images/Ufo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;   /* Apila elementos en columna */
-  align-items: flex-start;  /* Alinea al inicio (izquierda) */
-  gap: 15px;                /* Espacio entre elementos */
+  flex-direction: column;   
+  align-items: flex-start;  
+  gap: 15px;                
+  color: white;             /* Para que el texto se vea sobre la imagen */
+  min-height: 100vh;        /* Que ocupe toda la altura de la pantalla */
+  box-sizing: border-box;               /* Espacio entre elementos */
 }
 
