@@ -4,19 +4,3 @@
 @import "jekyll-theme-minimal";
 
 
-.sidebar {
-  width: 250px;             
-  padding: 20px;
-  background-image: url('/assets/images/Ufo.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;   
-  align-items: flex-start;  
-  gap: 15px;                
-  color: white;             /* Para que el texto se vea sobre la imagen */
-  min-height: 100vh;        /* Que ocupe toda la altura de la pantalla */
-  box-sizing: border-box;               /* Espacio entre elementos */
-}
-
