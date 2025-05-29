@@ -1,7 +1,10 @@
-.titulo-centrado {
-  text-align: center;
-}
 ---
 ---
 
 @import "jekyll-theme-minimal";
+
+
+/* Aquí tus estilos personalizados */
+h1.titulo-centrado {
+  text-align: center;!important
+}
