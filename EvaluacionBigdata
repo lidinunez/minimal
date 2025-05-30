@@ -1,18 +1,20 @@
 # ovni-bigdata-gcp
 Proyecto de análisis de avistamientos de OVNIs usando Google Cloud
-# 🛸 Análisis de Avistamientos OVNI - Google Cloud Big Data
 > **Evaluación Parcial 2 - Asignatura: Big Data (AVY1101)**  
 > **Estudiante:**  Liliana Heracles, Diego Sanhueza y Lidia Nuñez 
 > **Seccion: AVY1101 .**
 >
-> ## 📌 Índice
-1. [Introducción](#introducción)
-2. [Objetivo del proyecto](#objetivo-del-proyecto)
-3. [Origen y carga de datos](#origen-y-carga-de-datos)
-4. [Preparación y limpieza de datos](#preparación-y-limpieza-de-datos)
-5. [Consultas SQL y análisis](#consultas-sql-y-análisis)
-6. [Visualización en Looker Studio](#visualización-en-looker-studio)
-7. [Conclusiones](#conclusiones)
+## 📌 Índice
+1. [Introducción](#-introducción)
+2. [Objetivo del proyecto](#-objetivo-del-proyecto)
+3. [Origen y carga de datos](#-origen-y-carga-de-datos)
+4. [Preparación y limpieza de datos](#-limpieza-con-dataprep)
+5. [Consultas SQL y análisis](#-consultas-sql-destacadas)
+6. [Visualización en Looker Studio](#-visualizaciones-en-looker-studio)
+7. [Resultados e Insights](#-resultados-e-insights)
+8. [Conclusión](#-conclusión)
+9. [Anexos](#-anexos)
+10. [Autores](#-autores)
 
 8. ## 📖 Introducción
 
