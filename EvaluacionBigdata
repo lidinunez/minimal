@@ -1,28 +1,29 @@
-# ovni-bigdata-gcp
-Proyecto de análisis de avistamientos de OVNIs usando Google Cloud
+
+# 🛸 Análisis de Avistamientos OVNI - Google Cloud Big Data
 > **Evaluación Parcial 2 - Asignatura: Big Data (AVY1101)**  
 > **Estudiante:**  Liliana Heracles, Diego Sanhueza y Lidia Nuñez 
 > **Seccion: AVY1101 .**
 >
 ## 📌 Índice
-1. [Introducción](#-introducción)
-2. [Objetivo del proyecto](#-objetivo-del-proyecto)
-3. [Origen y carga de datos](#-origen-y-carga-de-datos)
-4. [Preparación y limpieza de datos](#-limpieza-con-dataprep)
-5. [Consultas SQL y análisis](#-consultas-sql-destacadas)
-6. [Visualización en Looker Studio](#-visualizaciones-en-looker-studio)
-7. [Resultados e Insights](#-resultados-e-insights)
-8. [Conclusión](#-conclusión)
-9. [Anexos](#-anexos)
-10. [Autores](#-autores)
+[Introducción](#-introducción)
+[Objetivo del proyecto](#-objetivo-del-proyecto)
+[Origen y carga de datos](#-origen-y-carga-de-datos)
+[Preparación y limpieza de datos](#-limpieza-con-dataprep)
+[Consultas SQL y análisis](#-consultas-sql-destacadas)
+[Visualización en Looker Studio](#-visualizaciones-en-looker-studio)
+[Resultados e Insights](#-resultados-e-insights)
+[Conclusión](#-conclusión)
+[Anexos](#-anexos)
+[Autores](#-autores)
 
-8. ## 📖 Introducción
+## 📖 Introducción
 
 El presente informe tiene como objetivo presentar el desarrollo de un proceso completo de análisis de datos en un entorno Big Data, utilizando herramientas del ecosistema de Google Cloud. La actividad se enmarca en la Evaluación Parcial N°2 del curso Big Data (AVY1101), y consiste en la construcción de un flujo de trabajo que permita la ingesta, limpieza, transformación, análisis y visualización de grandes volúmenes de datos mediante procesos batch.
 
 Para este propósito, se utilizó un archivo con registros históricos de avistamientos de objetos voladores no identificados (OVNIs), el cual fue cargado inicialmente en Cloud Storage como parte del diseño de un Data Lake. Posteriormente, el conjunto de datos fue procesado mediante Cloud Dataprep (Trifacta), donde se llevaron a cabo tareas de limpieza y preparación de datos para asegurar su calidad. Una vez procesado, el archivo fue cargado en una tabla del servicio BigQuery, lo que permitió ejecutar diversas consultas SQL para obtener insights relevantes.
 
 Finalmente, se construyeron visualizaciones interactivas en Looker Studio, enfocadas en responder preguntas de negocio relacionadas con la frecuencia, ubicación y características de los avistamientos registrados. Este informe documenta cada una de las etapas del proceso, incluyendo capturas, consultas y análisis obtenidos, evidenciando el desarrollo de competencias clave en el manejo de tecnologías de Big Data.
+
 ## 🎯 Objetivo del Proyecto
 
 El objetivo principal del proyecto es diseñar y ejecutar un proceso completo de análisis de datos en un entorno Big Data, utilizando herramientas de Google Cloud Platform, con el fin de gestionar, transformar y visualizar información proveniente de un conjunto de datos sobre avistamientos de OVNIs.
@@ -37,8 +38,6 @@ Como primer paso, el archivo fue almacenado en **Cloud Storage**, servicio que p
 
 Posteriormente, se conectó este archivo desde la herramienta **Cloud Dataprep (Trifacta)**, con el objetivo de revisar y preparar los datos antes de su análisis. Esta conexión facilitó el acceso al contenido del archivo para su posterior limpieza, validación y transformación, como parte del proceso de preparación de datos batch previo a su carga en BigQuery.
 
----
-
 ## 🧹 Limpieza con Dataprep
 
 Para asegurar la calidad de los datos y permitir un análisis confiable, se realizó un proceso de limpieza utilizando la herramienta Cloud Dataprep (Trifacta). Dentro de este proceso:
@@ -51,7 +50,6 @@ Para asegurar la calidad de los datos y permitir un análisis confiable, se real
   - Se cambió el nombre de la columna `state/province` por `state_province`.
 
 > ⚠️ También fue necesario asignar el rol de *Cloud Dataflow Service Agent* para poder ejecutar correctamente el procesamiento desde Dataprep a BigQuery.
-
 
 ## 💾 Consultas SQL destacadas
 
@@ -97,19 +95,19 @@ LIMIT 5;
 
 A continuación se presentan los gráficos generados con Looker Studio, basados en las consultas realizadas sobre la tabla `avistamientos` en BigQuery.
 
-### 🥧 1. Top 5 formas de OVNIs más vistas
+### 🥧 Formas más comunes.
 
 ![Gráfico de torta](visualizaciones/tercera consulta.png)
 
 Este gráfico de torta representa las cinco formas más comunes de objetos voladores no identificados reportadas en Estados Unidos. Se observa que las formas "light" y "circle" lideran los reportes.
 
-### 📊 2. Cantidad de avistamientos por año
+### 📊 Avistamientos por año.
 
 ![Gráfico por año](visualizaciones/segunda consulta.png)
 
 Este gráfico de barras muestra la evolución anual de los avistamientos. Se puede identificar un aumento significativo en determinados años, lo que podría relacionarse con eventos culturales, tecnológicos o sociales.
 
-### 🏙️ 3. Top 5 ciudades con más avistamientos
+### 🏙️ Ciudades con más avistamientos.
 
 ![Gráfico de ciudades](visualizaciones/primera consulta.png)
 ![Gráfico de ciudades](visualizaciones/primera consulta 1.png)
@@ -118,7 +116,7 @@ Gráfico de mapa representa las ciudades con mayor número de avistamientos repo
 
 ## 📈 Resultados e Insights
 
-### 🔹 1. Formas más comunes de OVNIs reportadas
+### 🔹 1. Formas más comunes de OVNIs reportadas.
 
 Los datos revelan que las formas de objetos más reportadas en Estados Unidos son:
 - Light (luz)
@@ -136,7 +134,7 @@ El análisis anual muestra que los años con más reportes fueron:
 
 Esto coincide con un periodo de mayor visibilidad del fenómeno OVNI en medios y redes sociales. También se aprecia una disminución progresiva después del 2015, lo que podría estar relacionado con cambios en los canales de reporte o en el interés general del público.
 
-### 🔹 5. Ciudades con más avistamientos
+### 🔹 3. Ciudades con más avistamientos
 
 Las ciudades con mayor número de reportes fueron:
 - Phoenix.
