@@ -4,6 +4,8 @@ layout: default
 
 <link rel="stylesheet" href="/assets/css/style.css">
 
+<div class="lado-izquierdo">
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
