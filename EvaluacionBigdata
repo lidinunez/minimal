@@ -1,8 +1,8 @@
 
 # 🛸 Análisis de Avistamientos OVNI - Google Cloud Big Data
-> **Evaluación Parcial 2 - Asignatura: Big Data (AVY1101)**  
+> **Evaluación Parcial 2 - Asignatura: Big Data (BIY7132)**  
 > **Estudiante:**  Liliana Heracles, Diego Sanhueza y Lidia Nuñez 
-> **Seccion: AVY1101 .**
+> **Seccion: BIY7132 - 002D .**
 >
 ## 📌 Índice
 [Introducción](#-introducción)
@@ -18,7 +18,7 @@
 
 ## 📖 Introducción
 
-El presente informe tiene como objetivo presentar el desarrollo de un proceso completo de análisis de datos en un entorno Big Data, utilizando herramientas del ecosistema de Google Cloud. La actividad se enmarca en la Evaluación Parcial N°2 del curso Big Data (AVY1101), y consiste en la construcción de un flujo de trabajo que permita la ingesta, limpieza, transformación, análisis y visualización de grandes volúmenes de datos mediante procesos batch.
+El presente informe tiene como objetivo presentar el desarrollo de un proceso completo de análisis de datos en un entorno Big Data, utilizando herramientas del ecosistema de Google Cloud. La actividad se enmarca en la Evaluación Parcial N°2 del curso Big Data (BIY7132), y consiste en la construcción de un flujo de trabajo que permita la ingesta, limpieza, transformación, análisis y visualización de grandes volúmenes de datos mediante procesos batch.
 
 Para este propósito, se utilizó un archivo con registros históricos de avistamientos de objetos voladores no identificados (OVNIs), el cual fue cargado inicialmente en Cloud Storage como parte del diseño de un Data Lake. Posteriormente, el conjunto de datos fue procesado mediante Cloud Dataprep (Trifacta), donde se llevaron a cabo tareas de limpieza y preparación de datos para asegurar su calidad. Una vez procesado, el archivo fue cargado en una tabla del servicio BigQuery, lo que permitió ejecutar diversas consultas SQL para obtener insights relevantes.
 
