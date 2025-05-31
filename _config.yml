@@ -1,6 +1,6 @@
 title: "Archivo Onvi"
 logo: /assets/images/Ufo.png
 description: "¿Qué hay más allá de lo que vemos? Este es un archivo abierto de avistamientos de onvis: luces, sombras y presencias inexplicables que desafían nuestra comprensión del cielo."
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
