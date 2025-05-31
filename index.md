@@ -5,6 +5,9 @@ layout: default
 <link rel="stylesheet" href="/assets/css/style.css">
 
 <div class="lado-izquierdo">
+ <h1>Archivo Onvi</h1>
+  <p>Luces en el cielo, sombras en la tierra...</p>
+</div>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
