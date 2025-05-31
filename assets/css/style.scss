@@ -15,11 +15,10 @@ body {
 }
 
 .lado-izquierdo {
-  background-color: #101820; /* fondo negro azulado */
-  color: #fefefe;
-  width: 50%;
-  padding: 2rem;
-  box-sizing: border-box;
+  flex: 1;              /* ocupa espacio libre */
+  background: transparent; /* sin fondo, transparente */
+  padding: 0;           /* sin relleno */
+  color: inherit;       /* mismo color que body */
   overflow-y: auto;
 }
 
